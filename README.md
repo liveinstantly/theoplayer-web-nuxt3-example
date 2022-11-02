@@ -53,7 +53,7 @@ Done in 5.76s.
 
 This is an optional step.
 
-Nuxt web application expects source files/directories will be flat under the root project directory, while Vue web application expects source files/directories inside `./src` directory under the root project directiry.
+Nuxt web application expects source files/directories will be flat under the root project directory, while Vue web application expects source files/directories inside `./src` directory under the root project directory.
 
 If you want to move the source files/directories of your Nuxt3 web application, you can follow the steps below:
 
