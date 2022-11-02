@@ -10,7 +10,7 @@ Nuxt は、JavaScript を実行している任意のプラットフォームに�
 
 Nuxt はビュー エンジンとして Vue.js を使用します。 Vue 3 の機能はすべて Nuxt で利用できます。 Nuxt の詳細については、[Nuxt 3 の紹介](https://v3.nuxtjs.org/getting-started/introduction) 記事を参照してください。
 
-このプレーヤーの実装例では、Nuxt3 CLI (nuxi) ツールによって提供されるスターター テンプレートを使って用意され、Nux3 およびコンポジション API を使用して、プレイヤーを統合します。
+このプレーヤーの実装例では、Nuxt3 CLI (nuxi) ツールによって提供されるスターター テンプレートを使って用意され、Nuxt3 およびコンポジション API を使用して、プレイヤーを統合します。
 
 ## THEOplayer Web SDK を統合するためのステップバイステップ
 
