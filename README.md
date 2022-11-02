@@ -221,7 +221,7 @@ declare global {
 
 #### 4.5 Add THEOplayer JavaScript, and CSS module in `app.vue`
 
-Add the following section to `src/app.vue`to import THEOplayer CSS and JavaScript.
+Add the following section to `src/app.vue` to import THEOplayer CSS and JavaScript.
 
 ```html
 <script setup lang="ts">
@@ -249,7 +249,7 @@ useHead({
 </script>
 ```
 
-#### 4.5 Change a component in `app.vue`
+#### 4.6 Change a component in `app.vue`
 
 Change `NuxtWelcome` component to `Welcome` component (which is created at section 4.3) in `src/app.vue` in order to render THEOplayer in this example web app.
 
@@ -287,18 +287,18 @@ This application uses a public THEOplayer player code with builtin license, whic
 
 The screenshot is as belows:
 
-![Screenshot of THEOplayer Vue3 application example](./docs/images/screenshot-nuxt3-theoplayer-example.png)
+![Screenshot of THEOplayer Nuxt3 application example](./docs/images/screenshot-nuxt3-theoplayer-example.png)
 
 ## Using your local THEOplayer Web SDK
 
-If you want to use your own THEOplayer Web SDK, you will need to put your (customized) Web SDK under `public` folder of Vue3 source tree.
+If you want to use your own THEOplayer Web SDK, you will need to put your (customized) Web SDK under `src/public` folder of Nuxt3 source tree.
 
 Then, you will need to modify the following files to point the location of THEOplayer JS/CSS and library folder appropriately.
 
 * `src/app.vue`
 * `src/components/Player.vue`
 
-For example, if you will put the SDK files into `public/js/theoplayer` folder, `src/app.vue` and `src/components/Player.vue` will be as below:
+For example, if you will put the SDK files into `src/public/js/theoplayer` folder, `src/app.vue` and `src/components/Player.vue` will be as below:
 
 `src/app.vue`:
 
@@ -334,6 +334,7 @@ useHead({
     const player = new window.THEOplayer.Player(theoplayer.value, {
       fluid: true,
       libraryLocation: "/js/theoplayer/",
+      license: "license string"
     });
 ```
 
