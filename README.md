@@ -221,7 +221,7 @@ declare global {
 
 #### 4.5 Add THEOplayer JavaScript, and CSS module in `app.vue`
 
-Add the following section to `app.vue`to import THEOplayer CSS and JavaScript.
+Add the following section to `src/app.vue`to import THEOplayer CSS and JavaScript.
 
 ```html
 <script setup lang="ts">
