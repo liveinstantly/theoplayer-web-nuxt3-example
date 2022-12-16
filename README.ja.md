@@ -44,7 +44,7 @@ info No lockfile found.
 [4/4] Building fresh packages...
 success Saved lockfile.
 $ nuxt prepare
-Nuxi 3.0.0-rc.12
+Nuxi 3.0.0
 √ Types generated in src/.nuxt
 Done in 5.76s.
 ```
